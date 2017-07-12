@@ -1,0 +1,177 @@
+html,body{
+    background-color: #f6f6f6;
+}
+header{
+    margin: 0.75rem 0 1rem;
+    background-color: #ffffff;
+}
+header section{
+    box-sizing: border-box;
+    width: 37.5rem;
+    border-bottom: 1px solid #bbbbbb;
+}
+header section:last-child{
+    border-bottom: none;
+}
+header section:first-child ul{
+    margin: 0 auto 2.05rem;
+    width: 32.2rem;
+}
+header section:first-child{
+    padding-top: 1.75rem;
+}
+header section:first-child ul li{
+    float: left;
+    box-sizing: border-box;
+    width: 16.1rem;
+    height: 3.75rem;
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 3.75rem;
+    color: #bbbbbb;
+    border: 2px solid #bbbbbb;
+}
+header section:first-child ul li:nth-child(1){
+    border-right: none;
+    border-radius: 5rem 0 0 5rem;
+}
+header section:first-child ul li:nth-child(2){
+    border-left: none;
+    border-radius: 0 5rem 5rem 0;
+}
+header section:first-child ul li.active{
+    border:none;
+    color: #ffffff;
+    background-color: #0185cf;
+}
+header section:nth-child(2),header section:nth-child(3),header section:nth-child(4){
+    position: relative;
+    padding-left: 3.5rem;
+    font-size: 1.6rem;
+    color: #333333;
+}
+.num{
+    display: none;
+}
+header section:nth-child(2) span,header section:nth-child(3) span,header section:nth-child(4) span{
+    margin-right: 4.8rem;
+    line-height: 5rem;
+}
+header section:nth-child(2) select{
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    appearance:none;
+    background-color: #ffffff;
+}
+header section:nth-child(2) select,header section:nth-child(3) input,header section:nth-child(4) input{
+    width: 21rem;
+    border: none;
+}
+header section:nth-child(2) i{
+    position: absolute;
+    right: 2.8rem;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 0.625rem solid transparent;
+    border-right: 0.625rem solid transparent;
+    border-top: 0.7rem solid #1f89cb;
+}
+header section:last-child{
+    padding: 1.6rem 0 0.7rem;
+}
+header section:last-child div{
+    margin: 0 auto;
+    width: 31.5rem;
+    height: 4.2rem;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 4.2rem;
+    border-radius: .5rem;
+    color: #ffffff;
+    background-color: #0185cf;
+}
+footer{
+    display: none;
+}
+footer section{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 35.5rem;
+    border: 3px solid #e1e1e1;
+}
+footer section:first-child{
+    border-bottom: none;
+    font-size: 1.6rem;
+    color: #333333;
+}
+footer section:first-child div:first-child{
+    padding-left: 2.1rem;
+    position: relative;
+    line-height: 4rem;
+    background-color: #e1e1e1;
+}
+footer section:first-child div:first-child span{
+    position: absolute;
+    left: 1rem;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    display: inline-block;
+    width: 0.2rem;
+    height: 1.4rem;
+    background-color: #0185cf;
+}
+footer section:first-child div:last-child{
+    line-height: 4.5rem;
+    background-color: #ffffff;
+}
+footer section:first-child div:last-child span{
+    display: inline-block;
+    width: 11.7rem;
+    text-align: center;
+}
+footer section:nth-child(2){
+    border-top: none;
+}
+footer section:nth-child(2) ul{
+    height: 18rem;
+    overflow: scroll;
+}
+footer section:nth-child(2) ul li.actBg{
+    width: 35.2rem;
+    height: 4.5rem;
+    background: url("../images/actBg.png") center no-repeat;
+    background-size: cover;
+}
+footer section:nth-child(2) ul li:nth-child(even){
+    background-color: #ffffff;
+}
+footer section:nth-child(2) ul li:nth-child(odd){
+    background-color: #f1f1f1;
+}
+footer section:nth-child(2) ul li span{
+    display: inline-block;
+    width: 11.6rem;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 4.5rem;
+    color: #333333;
+}
+footer section:last-child{
+    border: none;
+}
+footer section:last-child div{
+    margin: 1.55rem auto;
+    width: 31.5rem;
+    height: 4.2rem;
+    font-size: 1.8rem;
+    line-height: 4.2rem;
+    text-align: center;
+    border-radius: .5rem;
+    color: #ffffff;
+    background-color: #0185cf;
+}
