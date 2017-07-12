@@ -131,7 +131,7 @@ footer section:first-child div:last-child{
 }
 footer section:first-child div:last-child span{
     display: inline-block;
-    width: 11.6rem;
+    width: 11.5rem;
     text-align: center;
 }
 footer section:nth-child(2){
@@ -141,10 +141,10 @@ footer section:nth-child(2) ul{
     height: 18rem;
     overflow: scroll;
 }
-footer section:nth-child(2) ul li{
+/*footer section:nth-child(2) ul li{
     width: 35.2rem;
     height: 4.5rem;
-}
+}*/
 footer section:nth-child(2) ul li.actBg{
     width: 35.2rem;
     height: 4.5rem;
