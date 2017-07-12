@@ -141,6 +141,9 @@ footer section:nth-child(2) ul{
     height: 18rem;
     overflow: scroll;
 }
+footer section:nth-child(2) ul li{
+    width: 35.2rem;
+}
 footer section:nth-child(2) ul li.actBg{
     width: 35.2rem;
     height: 4.5rem;
