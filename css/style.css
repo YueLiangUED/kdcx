@@ -143,6 +143,7 @@ footer section:nth-child(2) ul{
 }
 footer section:nth-child(2) ul li{
     width: 35.2rem;
+    height: 4.5rem;
 }
 footer section:nth-child(2) ul li.actBg{
     width: 35.2rem;
